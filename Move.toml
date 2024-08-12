@@ -1,0 +1,9 @@
+[package]
+name = "AutomatedCharityContract"
+version = "0.0.0"
+
+[addresses]
+AutomatedCharityContract = "0xb10f6263aadb52ffe139f4800a23b2e3e83514089f593b82750754b1ff7fccac"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "testnet" }
